@@ -35,14 +35,7 @@ private:
 };
 
 int main()
-{
-	char* file = ("C:\\Users\\User\\source\\repos\\ЛР122\\rt");
-	std::ifstream fin(file);
-	if (!fin.is_open()) {
-		std::cerr << "Error: file " << file << "is not open\n";
-		return 1;
-	}
-	else
+	
 	{
 		int n;
 		cout << "n="; cin >> n;
